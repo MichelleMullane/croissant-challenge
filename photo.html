@@ -11,30 +11,33 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Photo Gallery</title>
   </head>
   <body>
-    <h1>Welcome to the Croissant Photo Gallery</h1>
+    <h1 class="text-center">Welcome to the Croissant Photo Gallery</h1>
     <div class="container">
       <div class="row">
         <div class="col-6">
           <img
             src="/images/croissant.jpeg"
-            class="img-fluid"
+            class="img-fluid shadow rounded p-2"
             alt="Croissants"
           />
         </div>
         <div class="col-6">
           <img
             src="/images/croissant-solo.jpeg"
-            class="img-fluid"
+            class="img-fluid shadow rounded p-2"
             alt="Solo Croissant"
           />
         </div>
       </div>
     </div>
 
-    <a href="/">Homepage</a>
-    <a href="/contact.html">Contact page</a>
+    <div class="d-flex justify-content-center">
+      <a href="/" class="navigation-links m-3">Homepage</a>
+      <a href="/contact.html" class="navigation-links m-3">Contact Us ☎️</a>
+    </div>
   </body>
 </html>
